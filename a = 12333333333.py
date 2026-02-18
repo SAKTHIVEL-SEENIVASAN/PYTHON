@@ -1,3 +1,5 @@
-a = "   hello   "
-print(a.lstrip())   # removes left
-print(a.rstrip())   # removes right
+n = 4
+for i in range(n):
+    for j in range(n):
+        print("*", end=" ")
+    print()
